@@ -1,0 +1,124 @@
+.myBG {
+  height: 100vh;
+  background: url("../assets/images/bg/main.jpg");
+  background-size: cover;
+}
+
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
+
+.trending {
+  height: auto;
+  background: url("../assets/images/bg/topanime.jpg");
+  background-size: cover;
+}
+
+.superhero {
+  height: auto;
+  background: url("../assets/images/bg/animelist.jpg");
+  background-size: cover;
+}
+
+.footer {
+  height: 5rem;
+  width: 100%;
+  background-color: rgba(51,65,85, .8);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.movieWrapper {
+}
+
+.movieImage {
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  
+}
+
+
+.images {
+  height: 400px;
+  width: auto;
+}
+
+.sinopsis {
+  overflow: hidden;
+  height: 75px;
+}
+
+.rating {
+  padding-inline: 8px;
+  padding-block: 3px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(58, 186, 145, 0.5);
+  border-radius: 10px;
+  border: 3px solid white;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.navcolor {
+  background-color: rgba(148,163,184,.5);
+}
+
+.navcolor a.nav-link {
+  font-weight: bold;
+}
+
+.navcolor a.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+.carousel-image {
+  width: 200px;
+  height: 290px;
+  margin-left: 6rem;
+}
+
+.container-space {
+  padding-bottom: 8rem;
+}
+
+.carousel-caption {
+  width: 50% !important;
+  margin-left: 10rem !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+.detail {
+  text-align: left;
+}
+.carousel-sinopsis {
+  text-align: justify;
+  height: 6.2rem !important;
+  overflow: hidden;
+  margin-top: 3px;
+}
+
+.list-title {
+  margin-block: 4rem;
+  margin-left: 5rem;
+}
